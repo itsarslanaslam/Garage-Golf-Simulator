@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding: 10px;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    padding-right: 50px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+nav h2 {
+    padding-left: 10px;
+    font-family: "Urbanist", sans-serif;
+
+}
+
+.heading {
+    padding: 10px;
+    margin-left: 50px;
+    font-family: "Urbanist", sans-serif;
+
+}
+
+.cover {
+    background-color: rgba(36, 19, 7, 0.797);
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 70px;
+    /* pushes content inside down */
+
+}
+
+.heading-div {
+    width: auto;
+    height: 120px;
+    background-color: burlywood;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    /* margin-bottom: 50px; */
+}
+
+.heading-div h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Urbanist", sans-serif;
+
+}
+
+.heading-div h4 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Urbanist", sans-serif;
+
+}
+
+.info {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.info p {
+    width: 500px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.662);
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+}
+
+
+.main {
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.img-sec {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.show {
+    display: none;
+}
+
+/* .active {
+  background-color: rgba(165, 65, 65, 0.347);
+  border-color: red;
+  box-shadow: none !important;
+} */
+
+
+.left-wall,
+.projector,
+.screen,
+.golf-cart,
+.golf-mat,
+.hitting-strip,
+.launch-monitor {
+    position: absolute;
+    border: 2px solid #f1f16eff;
+    box-shadow: 0 0 10px #f1f16eff;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.left-wall:hover,
+.projector:hover,
+.screen:hover,
+.golf-cart:hover,
+.golf-mat:hover,
+.hitting-strip:hover,
+.launch-monitor:hover {
+    box-shadow: 0 0 25px yellow;
+    background-color: rgba(115, 172, 153, 0.212);
+    transform: scale(1.03);
+}
+
+.left-wall {
+    height: 45%;
+    width: 13%;
+    top: 25%;
+    left: 2%;
+}
+
+.projector {
+    height: 21%;
+    width: 14%;
+    top: 6%;
+    left: 43%;
+}
+
+.screen {
+    height: 38%;
+    width: 56%;
+    top: 30.5%;
+    left: 22%;
+}
+
+.golf-cart {
+    height: 53%;
+    width: 15%;
+    top: 25%;
+    right: 2.5%;
+}
+
+.golf-mat {
+    height: 24%;
+    width: 53%;
+    top: 72%;
+    left: 18%;
+}
+
+.hitting-strip {
+    height: 18%;
+    width: 44%;
+    top: 74%;
+    left: 25%;
+}
+
+.launch-monitor {
+    height: 13%;
+    width: 5.8%;
+    top: 73%;
+    right: 21%;
+}
+
+.label {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.golf-mat .label {
+    left: 30px;
+}
+
+.screen .label {
+    left: 25px;
+}
+
+.left-wall .label {
+    left: 60px;
+}
+
+
+/* .component-name p{
+  margin-top: 20px;
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  width: fit-content;
+  min-width: 200px;
+text-align: center;
+  line-height: 1.8;
+  
+} */
+
+.component-name {
+    text-align: center;
+    border: 2px solid black;
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 10px;
+
+}
+
+.component-name h3 {
+    padding-top: 10px;
+}
+
+.component-name p {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: fit-content;
+    min-width: 200px;
+    line-height: 1.8;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.component-price {
+    text-align: center;
+    border: 2px solid black;
+    height: auto;
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+.component-price h3 {
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.component-price p {
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.btn button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(72, 135, 172);
+    border: none;
+    color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.616);
+}
+
+.btn button:hover {
+    transition: 0.3s ease;
+    background-color: rgb(45, 107, 143);
+}
+
+.btn {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
