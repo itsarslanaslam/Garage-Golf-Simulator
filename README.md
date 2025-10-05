@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="CoverImg" src="https://github.com/user-attachments/assets/45b60e8d-f0bc-4af0-9014-8550d0091631" />
+
 🏌️‍♂️ Garage Golf Simulator — Interactive UI
 
 An interactive Golf Simulator Configuration Interface built with HTML, CSS, and JavaScript.
@@ -51,7 +53,7 @@ Deselecting updates the list instantly.
 
 Clone this repository:
 
-git clone https://github.com/your-username/Garage-Golf-Simulator.git
+git clone https://github.com/itsarslanaslam/Garage-Golf-Simulator.git
 
 
 Open the folder in your code editor (e.g., VS Code).
